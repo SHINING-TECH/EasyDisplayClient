@@ -1,0 +1,37 @@
+# .github/workflows/publish.yml
+name: Publish to pub.dev
+
+on:
+  push:
+    tags:
+    - 'v[0-9]+.[0-9]+.[0-9]+*' # tag-pattern on pub.dev: 'v{{version}}'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    permissions:
+      id-token: write # Required for authentication using OIDC
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: flutter/flutter
+          fetch-depth: 0
+          ref: stable
+          path: build
+
+      - run: sudo apt install -y curl git unzip xz-utils zip libglu1-mesa
+
+      - run: build/bin/flutter pub get
+
+      - run: mkdir -p ~/.config/dart
+      
+      - shell: bash
+        env:
+          CREDENTIAL_JSON: ${{ secrets.CREDENTIAL_JSON }}
+        run: echo "$CREDENTIAL_JSON" > ~/.config/dart/pub-credentials.json
+
+      - run: build/bin/flutter pub publish -f
+     

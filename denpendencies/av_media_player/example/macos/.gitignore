@@ -1,0 +1,10 @@
+# Flutter-related
+**/Flutter/ephemeral/
+**/Flutter/GeneratedPluginRegistrant.swift
+**/Pods/
+Podfile
+Podfile.lock
+
+# Xcode-related
+**/dgph
+**/xcuserdata/

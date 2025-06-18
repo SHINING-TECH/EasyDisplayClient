@@ -1,0 +1,1 @@
+../../ios/av_media_player/Package.swift
