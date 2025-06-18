@@ -11,6 +11,8 @@
 
 Once deployed, EasyDisplay can serve content directly over the local network — no cloud or server setup required.
 
+[How To Use](https://sites.google.com/view/shiningtech/how-to-use)
+
 ## Platforms
 
 - Android app (with embedded local web server)
