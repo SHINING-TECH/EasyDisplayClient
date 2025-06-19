@@ -7,7 +7,7 @@
 **EasyDisplay** is a minimalist, offline-first digital signage solution.
 
 - ✅ **Local-first architecture** — works without internet
-- 📱 **Cross-platform support** — Android, Windows, Linux
+- 📱 **Cross-platform support** — Android, Windows, Linux, IOS
 - 🛠️ **Fully open-source** and easy to extend
 - 📦 Ideal for **meeting room displays**, **retail signs**, and **info panels**
 
@@ -68,6 +68,23 @@ For full usage instructions, see the [EasyDisplay User Guide](https://sites.goog
 
 ---
 
+## 🎨 Custom Layout (Drag & Drop)
+
+Design your display content freely with an intuitive drag-and-drop editor — no coding required.
+
+---
+
+## 📲 Get the App
+
+EasyDisplay is available on Google Play:
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.vinda.snap_vison_client">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" width="200" />
+  </a>
+</p>
+
+---
 
 ## 📄 License
 
