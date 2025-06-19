@@ -1,3 +1,7 @@
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](./README.md)
+[![繁體中文](https://img.shields.io/badge/語言-繁體中文-red.svg)](./README.zh-TW.md)
+[![日本語](https://img.shields.io/badge/言語-日本語-yellow.svg)](./README.ja.md)
+
 # EasyDisplay
 
 <p align="center">
