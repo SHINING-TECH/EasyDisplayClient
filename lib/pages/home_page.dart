@@ -30,6 +30,16 @@ class _HomePageState extends State<HomePage> {
   final DatabaseManager _dbManager = DatabaseManager();
   final ServerManage _serverManage = ServerManage();
   String? ipv4Address;
+  //TV焦点
+  final FocusNode _settingsButtonFocusNode = FocusNode();
+  bool _isButtonFocused = false;
+
+  @override
+  void dispose() {
+    // 释放焦点节点
+    _settingsButtonFocusNode.dispose();
+    super.dispose();
+  }
 
   @override
   void initState() {
@@ -90,15 +100,30 @@ class _HomePageState extends State<HomePage> {
           Positioned(
             left: 16,
             top: 16,
-            child: ElevatedButton.icon(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const SettingsPage()),
-                );
+            child: FocusableActionDetector(
+              focusNode: _settingsButtonFocusNode,
+              onShowFocusHighlight: (isFocused) {
+                setState(() {
+                  // 可根据 isFocused 状态更新 UI，如改变按钮颜色
+                  _isButtonFocused = isFocused;
+                });
               },
-              icon: const Icon(Icons.settings),
-              label: Text(L10n.getString(context, 'settings')),
+              child: ElevatedButton.icon(
+                style: ElevatedButton.styleFrom(
+                  // 根据焦点状态添加外边框
+                  side: _isButtonFocused
+                      ? BorderSide(color: Colors.lightBlue, width: 2)
+                      : BorderSide.none,
+                ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const SettingsPage()),
+                  );
+                },
+                icon: const Icon(Icons.settings),
+                label: Text(L10n.getString(context, 'settings')),
+              ),
             ),
           ),
         ],
