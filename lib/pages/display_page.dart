@@ -11,7 +11,7 @@ import '../displayitem/BaseDisplayWidget.dart';
 import '../displayitem/clock/ClockWidgetBuilder.dart';
 import '../displayitem/img/ImageWidgetBuilder.dart';
 import '../displayitem/scrolltext/display_item_scroll_text.dart';
-import '../displayitem/text/display_item_text.dart';
+import '../displayitem/text/TextWidgetBuilder.dart';
 import '../displayitem/timeTxt/TimeTextWidgetBuilder.dart';
 import '../event/event_bus.dart';
 import '../event/refresh_display_event.dart';
@@ -162,7 +162,10 @@ class DisplayPageState extends StateEx<DisplayPage> {
         final videoWidget = await videoBuilder.buildWidget(programId,item);
         return videoWidget;
       case "txt":
-        return await TextWidgetBuilder.buildTextWidget(programId,item);
+        final textBuilder = TextWidgetBuilder();
+        displayWidgets.add(textBuilder); // 添加到列表
+        final textWidget = await textBuilder.buildWidget(programId,item);
+        return textWidget;
       case "scroll":
         return await ScrollTextWidgetBuilder.buildScrollTextWidget(programId,item);
       case "clock":
@@ -286,6 +289,7 @@ class TemplateScreen extends StatelessWidget {
         .of(context)
         .size
         .height;
+
     print("screenWidth: $screenWidth designWidth: $designWidth");
     print("screenHeight: $screenHeight designHeight: $designHeight");
 

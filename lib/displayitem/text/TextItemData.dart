@@ -15,6 +15,7 @@ class TextItemData {
   final String textWeight;
   final String textStyle;
   final String textUnderline;
+  final String textAnimalType;
 
   TextItemData({
     // 初始化注释中的字段
@@ -28,6 +29,7 @@ class TextItemData {
     required this.textWeight,
     required this.textStyle,
     required this.textUnderline,
+    required this.textAnimalType,
   });
 
   // 从 JSON 数据创建 TextItemData 实例
@@ -44,6 +46,7 @@ class TextItemData {
       textWeight: json['textWeight']?? '',
       textStyle: json['textStyle']?? '',
       textUnderline: json['textUnderline']?? '',
+      textAnimalType: json['textAnimalType']?? '',
     );
   }
 }
