@@ -55,7 +55,7 @@ to manage and update the screen content in real-time.
 ### 📰 Info Screens
 
 <p align="center">
-  <img src="assets/show/digitalinfo.png" width="500" alt="Info Screen" />
+  <img src="assets/show/sales.gif" width="500" alt="Info Screen" />
 </p>
 
 ---
