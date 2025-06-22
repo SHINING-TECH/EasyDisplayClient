@@ -11,7 +11,7 @@ class AppConfig {
   AppConfig._internal();
 
   // 配置变量
-  late String webVersion = "web20250605";
+  late String webVersion = "web20250622";
 
   //当前播放的播放计划id
   late int nowPlayingPublishId = 0;

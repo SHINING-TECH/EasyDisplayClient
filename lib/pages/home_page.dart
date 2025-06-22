@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:snap_vison_client/config/app_config.dart';
+import 'package:snap_vison_client/pages/setting_v2.dart';
 import 'package:snap_vison_client/server/ServerManage.dart';
 import 'package:r_get_ip/r_get_ip.dart';
 import 'package:snap_vison_client/util/FileUtil.dart';
