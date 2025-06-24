@@ -43,6 +43,23 @@ http://[裝置IP]:[連接埠]
 
 可即時編輯與更新螢幕顯示內容。
 
+
+### 第四步： 📺 即時推送畫面
+
+可立即將內容推送至螢幕顯示。
+
+<p align="center">
+  <img src="assets/show/screen_show.jpg" width="500" alt="螢幕即時顯示畫面" />
+</p>
+
+完整使用說明，請參考 [EasyDisplay 使用指南](https://sites.google.com/view/shiningtech/how-to-use)。
+
+---
+
+## 🎨 自由排版（拖放編輯）
+
+透過直覺式拖曳編輯器，輕鬆設計顯示內容 — 無需程式知識。
+
 ---
 
 ## 🖥️ 應用場景
@@ -71,23 +88,6 @@ http://[裝置IP]:[連接埠]
 
 ---
 
-## 📺 即時推送畫面
-
-可立即將內容推送至螢幕顯示。
-
-<p align="center">
-  <img src="assets/show/screen_show.jpg" width="500" alt="螢幕即時顯示畫面" />
-</p>
-
-完整使用說明，請參考 [EasyDisplay 使用指南](https://sites.google.com/view/shiningtech/how-to-use)。
-
----
-
-## 🎨 自由排版（拖放編輯）
-
-透過直覺式拖曳編輯器，輕鬆設計顯示內容 — 無需程式知識。
-
----
 
 ## 📲 下載應用程式
 

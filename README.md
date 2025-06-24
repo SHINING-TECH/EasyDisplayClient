@@ -43,6 +43,22 @@ Open your browser and visit: http://[device-ip]:[port]
 
 to manage and update the screen content in real-time.
 
+### Step 4: 📺 Push to Screen
+
+Display content instantly on screens.
+
+<p align="center">
+  <img src="assets/show/screen_show.jpg" width="500" alt="Screen Push" />
+</p>
+
+For full usage instructions, see the [EasyDisplay User Guide](https://sites.google.com/view/shiningtech/how-to-use).
+
+---
+
+## 🎨 Custom Layout (Drag & Drop)
+
+Design your display content freely with an intuitive drag-and-drop editor — no coding required.
+
 ---
 
 ## 🖥️ Use Cases
@@ -69,24 +85,6 @@ to manage and update the screen content in real-time.
 <p align="center">
   <img src="assets/show/digitalinfo.png" width="500" alt="Info Screen" />
 </p>
-
----
-
-## 📺 Push to Screen
-
-Display content instantly on screens.
-
-<p align="center">
-  <img src="assets/show/screen_show.jpg" width="500" alt="Screen Push" />
-</p>
-
-For full usage instructions, see the [EasyDisplay User Guide](https://sites.google.com/view/shiningtech/how-to-use).
-
----
-
-## 🎨 Custom Layout (Drag & Drop)
-
-Design your display content freely with an intuitive drag-and-drop editor — no coding required.
 
 ---
 

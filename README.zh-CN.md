@@ -44,6 +44,21 @@ http://[设备IP]:[端口号]
 
 即可实时更新和管理屏幕内容。
 
+### 第四步：📺 实时推送到屏幕
+
+一键将内容推送到显示设备，快速响应。
+
+<p align="center">
+  <img src="assets/show/screen_show.jpg" width="500" alt="实时屏幕显示图" />
+</p>
+
+完整使用说明请见：[EasyDisplay 用户指南](https://sites.google.com/view/shiningtech/how-to-use)
+---
+
+## 🎨 自由布局（拖拽编辑）
+
+通过直观的拖拽编辑器，自由设计屏幕内容，无需编程知识。
+
 ---
 
 ## 🖥️ 应用场景
@@ -72,23 +87,6 @@ http://[设备IP]:[端口号]
 
 ---
 
-## 📺 实时推送到屏幕
-
-一键将内容推送到显示设备，快速响应。
-
-<p align="center">
-  <img src="assets/show/screen_show.jpg" width="500" alt="实时屏幕显示图" />
-</p>
-
-完整使用说明请见：[EasyDisplay 用户指南](https://sites.google.com/view/shiningtech/how-to-use)
-
----
-
-## 🎨 自由布局（拖拽编辑）
-
-通过直观的拖拽编辑器，自由设计屏幕内容，无需编程知识。
-
----
 
 ## 📲 下载应用
 
