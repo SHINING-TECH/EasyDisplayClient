@@ -33,6 +33,12 @@ Install the app and start the program on your device.
 
 Open your browser and visit: http://[device-ip]:[port]
 
+### Step 3: Edit Program
+
+<p align="center">
+  <img src="assets/show/edit_show.gif" width="500" alt="Sales Display" />
+</p>
+
 
 to manage and update the screen content in real-time.
 
@@ -52,10 +58,20 @@ to manage and update the screen content in real-time.
   <img src="assets/show/sales.png" width="500" alt="Sales Display" />
 </p>
 
+<p align="center">
+  <img src="assets/show/sales.gif" width="500" alt="Sales Display" />
+</p>
+
+### 🛍️ Store Promotions
+
+<p align="center">
+  <img src="assets/show/s.png" width="500" alt="Sales Display" />
+</p>
+
 ### 📰 Info Screens
 
 <p align="center">
-  <img src="assets/show/sales.gif" width="500" alt="Info Screen" />
+  <img src="assets/show/digitalinfo.png" width="500" alt="Info Screen" />
 </p>
 
 ---
