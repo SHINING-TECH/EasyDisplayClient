@@ -1,4 +1,5 @@
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](./README.md)
+[![简体中文](https://img.shields.io/badge/语言-简体中文-green.svg)](./README.zh-CN.md)
 [![繁體中文](https://img.shields.io/badge/語言-繁體中文-red.svg)](./README.zh-TW.md)
 [![日本語](https://img.shields.io/badge/言語-日本語-yellow.svg)](./README.ja.md)
 
@@ -12,7 +13,7 @@
 
 - ✅ **Local-first architecture** — works without internet
 - 📱 **Cross-platform support** — Android, Windows, Linux, IOS
-- 🛠️ **Fully open-source** and easy to extend
+- 🛠️ **Easy to extend**
 - 📦 Ideal for **meeting room displays**, **retail signs**, and **info panels**
 
 ---
@@ -33,6 +34,12 @@ Install the app and start the program on your device.
 
 Open your browser and visit: http://[device-ip]:[port]
 
+### Step 3: Edit Program
+
+<p align="center">
+  <img src="assets/show/edit_show.gif" width="500" alt="Sales Display" />
+</p>
+
 
 to manage and update the screen content in real-time.
 
@@ -52,10 +59,15 @@ to manage and update the screen content in real-time.
   <img src="assets/show/sales.png" width="500" alt="Sales Display" />
 </p>
 
+<p align="center">
+  <img src="assets/show/sales.gif" width="500" alt="Sales Display" />
+</p>
+
+
 ### 📰 Info Screens
 
 <p align="center">
-  <img src="assets/show/sales.gif" width="500" alt="Info Screen" />
+  <img src="assets/show/digitalinfo.png" width="500" alt="Info Screen" />
 </p>
 
 ---
