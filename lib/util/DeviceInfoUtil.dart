@@ -51,6 +51,11 @@ class DeviceInfo {
     return deviceData["userName"];
   }
 
+  // 获取设备ID
+  static String getHardWareDeviceId() {
+    return deviceData["device id"]?.toString() ?? "";
+  }
+
   // 获取硬件ID
   static String getDeviceId() {
     const String chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';

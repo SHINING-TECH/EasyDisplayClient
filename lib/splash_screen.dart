@@ -14,6 +14,8 @@ import 'package:snap_vison_client/database/database_manager.dart';
 import 'package:snap_vison_client/clientserver/HeartbeatService.dart';
 import 'package:snap_vison_client/main_app.dart';
 
+import 'appanalysis/mixpanel_event.dart';
+import 'appanalysis/mixpanel_service.dart';
 import 'l10n/localization.dart'; // 引入 MyApp
 
 class SplashScreen extends StatefulWidget {
@@ -105,6 +107,9 @@ class _SplashScreenState extends State<SplashScreen> {
 
     }
     MediaKit.ensureInitialized();
+    //初始化应用监控
+    await MixpanelService.init("6d2b1b838c46657891ba01a64006dd7c");
+    await MixpanelService.track(MixpanelEvents.ProcessStarted);
     // 总耗时
     int endTime = DateTime.now().millisecondsSinceEpoch;
     print("初始化 总耗时: ${endTime - startTime} ms");

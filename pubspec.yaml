@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.2+6
+version: 1.0.3+7
 
 environment:
   sdk: ^3.5.3
@@ -78,6 +78,8 @@ dependencies:
   in_app_purchase: ^3.2.0
   # 文字动画效果 https://pub.dev/packages/animated_text_kit
   animated_text_kit: ^4.2.2
+  #行为分析
+  mixpanel_flutter: ^2.3.2
   # 获取视频第一帧图片  https://pub.dev/packages/fc_native_video_thumbnail  (iOS	Android	macOS	Windows)
   fc_native_video_thumbnail:
     path: denpendencies/fc_native_video_thumbnail
