@@ -286,9 +286,7 @@ class ServerManage {
     final localPath = await getApplicationDocumentsDirectory();///data/user/0/com.vinda.snap_vison_client/app_flutte
     print("localpPath: $localPath");
     String localWebPath = '${localPath.path}/${AppConfig().webVersion}/web';
-    if (DeviceInfo.getUserName() == "MSI") {
-      localWebPath = 'F:\\Work\\Project Flutter\\snap_vison_client\\example\\files';
-    }
+    print("localWebPath: $localWebPath");
     final staticHandler = pipeline.addHandler(
         createStaticHandler(localWebPath, defaultDocument: defaultDoc));
     //上传的图片资源路径
